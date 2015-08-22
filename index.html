@@ -1,0 +1,117 @@
+<html>
+
+<head>
+ 	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+
+<link rel="stylesheet" type="text/css" media="all" href="css/mystyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+
+	</head>
+
+	<body>
+
+		<div id="master">
+
+		 <!-- it works the same with all jquery version from 1.x to 2.x -->
+	    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	    <!-- use jssor.slider.mini.js (40KB) instead for release -->
+	    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+	    <script type="text/javascript" src="js/jssor.js"></script>
+	    <script type="text/javascript" src="js/jssor.slider.js"></script>
+	    <script>
+
+        jQuery(document).ready(function ($) {
+            var options = {
+
+                $AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $DragOrientation: 1                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+        });
+    	</script>
+
+    	 
+		<header><img src="images/mainheaderbg.png"></header>
+		<nav>
+			<ul>
+				<li><input type="text"  placeholder="Username"></li>
+				<li><input type="password"  placeholder="Password"></li>
+				<li><a href="userMain.html"> Login </a></li>
+				
+			</ul>
+		</nav>
+
+
+		 <div id="slider1_container" class="animated bounceInLeft" style="position: relative; top: 0px; left: 0px; width: 450px;
+        height: 270px;">
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 450px; height: 270px;
+            overflow: hidden;">
+            <div><img u="image" src="images/adobe.jpg"/></div>
+            <div><img u="image" src="images/PG.jpg" /></div>
+            <div><img u="image" src="images/DE.jpg" /></div>
+			<div><img u="image" src="images/DF.jpg" /></div>
+            
+        </div>
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+    	</div>
+
+		<!--<div id="slideshow" class="animated bounceInLeft">
+		<img class= "img1" src="images/adobe.jpg">
+		<img class= "img2" src="images/adobe.jpg">
+		</div>-->
+
+
+		<div id="signUp" class="animated bounceInRight"><img src="images/signUp.png">
+		   <input type="text"  placeholder="Last Name">
+		   <input type="text"  placeholder="First Name">
+		   <input type="text"  placeholder="Middle Name"> 
+		   <input type="text"  placeholder="Email Add">
+		   <input type="text"  placeholder="Contact no.">
+		   <input type="text"  placeholder="Username"> 
+		   <input type="password"  placeholder="Password">
+		   <input type="password"  placeholder="Confirm Pass">
+		   <br>
+		   <br>
+		   <button type="button">Join</button>
+  		</div>
+
+  		<div class="animated bounceInUp">
+		<div class="about"><img src="images/aboutCoures.png"><p>In unum invidunt mei. Utamur quaeque mel ut, vim facete molestie at. Vim an dico theophrastus. At assum volumus accusam qui, an corpora ancillae tacimates sed, pri possit scripserit no.In unum invidunt mei. Utamur quaeque mel ut, vim facete molestie at. Vim an dico theophrastus. At assum volumus accusam qui.</p></div>
+		</div>
+
+		<div class="animated bounceInUp">
+		<div class="syllabus"><img src="images/DigiFundamentals.jpg"><p>In unum invidunt mei. Utamur quaeque mel ut, vim facete molestie at. Vim an dico theophrastus. At assum volumus accusam qui, an corpora ancillae tacimates sed, pri possit scripserit no.</p></div>
+
+
+		<div class="syllabus"><img src="images/DigiEditing.jpg"><p>In unum invidunt mei. Utamur quaeque mel ut, vim facete molestie at. Vim an dico theophrastus. At assum volumus accusam qui, an corpora ancillae tacimates sed, pri possit scripserit no.</p></div>
+
+		<div class="syllabus"><img src="images/Photography.jpg"><p>In unum invidunt mei. Utamur quaeque mel ut, vim facete molestie at. Vim an dico theophrastus. At assum volumus accusam qui, an corpora ancillae tacimates sed, pri possit scripserit no.</p></div>
+		</div>
+
+<div class="Announcement">
+<h2>Announcement</h2>
+<p>Ei vis harum dicunt, ei posidonium contentiones duo. No sit congue recteque. Autem nobis at pri, cum blandit sapientem ea. Ea usu purto graeci minimum, tale tempor postea at his, per te dolor sensibus.Ei vis harum dicunt, ei posidonium contentiones duo. No sit congue recteque. Autem nobis at pri, cum blandit sapientem ea. Ea usu purto graeci minimum, tale tempor postea at his, per te dolor sensibus.</p>
+</div>
+
+
+<footer>
+		<nav>
+			<ul>
+				<li>Copyright 2016</li>
+				<li>All Right Reserved</li>
+			</ul>
+		</nav>
+		<img src="images/footer.png">
+</footer>
+
+</div>
+ <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

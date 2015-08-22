@@ -1,0 +1,78 @@
+body{background :/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+#master{width :960px; margin :0 auto;border:1px solid #000000; background-color:#ffffff;
+background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px }
+
+
+
+header{width:960;height:60px; background :#7f7f7f;background-image: url("images/mainheaderbg.png");}
+header img{width:960;height:115px; }
+
+nav { width: 905px; height: 20px; background: #cfcfcf; padding: 1px 55px 25px 0px; text-align: right; margin-bottom: 20px}
+nav li{display: inline;}
+nav li input{width: 160px;}
+nav li a{background:#cbcbcb; text-decoration: none;color: #ffffff; border:1px solid;}
+
+
+#slider1_container{ width: 450px; height: 270px; margin: 20; background: #a4a4a4;display:line; float:left;border:2px solid #ffffff;
+	-webkit-box-shadow: 11px 13px 5px -8px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    11px 13px 5px -8px rgba(50, 50, 50, 1);
+	box-shadow:         11px 13px 5px -8px rgba(50, 50, 50, 1);}
+
+/*#slideshow { width: 450px; height: 270px; margin: 20; background: #a4a4a4;display:line; float:left;border:2px solid #ffffff;
+overflow:scroll;
+	-webkit-box-shadow: 11px 13px 5px -8px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    11px 13px 5px -8px rgba(50, 50, 50, 1);
+	box-shadow:         11px 13px 5px -8px rgba(50, 50, 50, 1);}*/
+
+.img1{width: 430px; height: 250px;}
+.img2{width: 430px; height: 250px;}
+
+#signUp{width: 380px; height: 270px; margin: 20; padding: 10px; background: #dedede; float:left; border:2px solid #ffffff;; 
+	-webkit-box-shadow: 11px 13px 5px -8px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    11px 13px 5px -8px rgba(50, 50, 50, 1);
+	box-shadow:         11px 13px 5px -8px rgba(50, 50, 50, 1);}
+	
+#signUp img{display:block; width: 100px; height: 30px ;margin: -25px -20px 20px -20px}	
+#signUp input{width: 180px; padding: 15px 15px 5px 10px ;margin: 0px 0px 5px 0px }
+#signUp button{width: 75px;margin-left: 290px}
+
+.about { width: 220px; height: 245px; ; background: #dedede; padding: 10px; margin: 10px 5px 10px 20px; float: left; margin-bottom: 20px;border:2px solid #ffffff;
+	-webkit-box-shadow: 11px 13px 5px -8px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    11px 13px 5px -8px rgba(50, 50, 50, 1);
+	box-shadow:         11px 13px 5px -8px rgba(50, 50, 50, 1);}
+.about img{margin-top: -30px; width:250px; height: 30px;}
+.syllabus { width: 190px; height: 180px;background: #dedede; padding: 5px; margin: 70px 10px 20px 10px; float: left; margin-bottom: 40px;border:2px solid #ffffff;
+	-webkit-box-shadow: 11px 13px 5px -8px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    11px 13px 5px -8px rgba(50, 50, 50, 1);
+	box-shadow:         11px 13px 5px -8px rgba(50, 50, 50, 1);}
+.syllabus img{ width: 100px; height: 50px ;margin-top: -30px;border:1px solid #ffffff;
+	-webkit-box-shadow: 11px 13px 5px -8px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    11px 13px 5px -8px rgba(50, 50, 50, 1);
+	box-shadow:         11px 13px 5px -8px rgba(50, 50, 50, 1);}
+
+.Announcement { margin: 20px 20px 20px 20px  }
+.Announcement h2{ margin-bottom: 20px; font-size: 200%; }
+
+
+footer {background :#cfcfcf;}
+footer img{width:960;height:115px; margin-top:-60px; }
+footer nav {width: 780px; height: 20px;text-align: right;margin-bottom: 0; background :#cfcfcf;margin:20px 20px 10px 20px;}
+footer nav li a {  padding: 10px 10px 10px 10px; font-weight: normal; font-size: 12px;}
+
+	
+
